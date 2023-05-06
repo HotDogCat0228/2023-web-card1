@@ -89,13 +89,6 @@ img {
   font-weight: 700; }
 
 .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 31%;
   border-left: 1px solid #dad3d3;
   border-right: 1px solid #dad3d3;
@@ -120,7 +113,7 @@ img {
 .mb-24 {
   margin-bottom: 24px; }
 
-.border-top-bottom {
+.border-top {
   border-top: 1px solid #F2F2F2; }
 
 /*# sourceMappingURL=all.css.map */
