@@ -53,7 +53,8 @@ body {
 img {
   width: 100%;
   height: auto;
-  border-radius: 25px 25px 0px 0px; }
+  border-radius: 25px 25px 0px 0px;
+  display: block; }
 
 .container {
   max-width: 1296px;
@@ -94,6 +95,25 @@ img {
   border-right: 1px solid #dad3d3;
   border-bottom: 1px solid #dad3d3;
   border-radius: 25px 25px 25px 25px; }
+
+.flex-colum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.flex-grow-2 {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2; }
+
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
 
 .card-padding {
   padding: 20px 32px; }
